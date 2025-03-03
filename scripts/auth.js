@@ -15,6 +15,7 @@ class Auth {
         localStorage.removeItem("auth");
         localStorage.removeItem("token");
         localStorage.removeItem("uname");
-        window.location.replace("/login.html");
+        window.location.replace("M07-Frontend/login.html");
+        // window.location.replace("/login.html");
     }
 }
