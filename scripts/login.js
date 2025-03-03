@@ -13,7 +13,8 @@ async function login(username, password) {
         username,
         password
     };
-    const response = await fetch("http://localhost:3000/api/auth", {
+    const response = await fetch("https://positive-emerald-guan.glitch.me/api/auth", {
+    // const response = await fetch("http://localhost:3000/api/auth", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
